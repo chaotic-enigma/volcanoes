@@ -75,7 +75,7 @@ def map_plotter(strata):
 			)
 
 		layout = go.Layout(
-			height=700,
+			height=800,
 			#width=500,
 			title='Volcanoes',
 			autosize=True,
@@ -85,7 +85,7 @@ def map_plotter(strata):
 				accesstoken=token,
 				bearing=0,
 				pitch=0,
-				zoom=0.9,
+				zoom=1.2,
 				style='light'
 			),
 		)
