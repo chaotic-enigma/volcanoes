@@ -85,7 +85,7 @@ def map_plotter(strata):
 				accesstoken=token,
 				bearing=0,
 				pitch=0,
-				zoom=0.6,
+				zoom=0.9,
 				style='light'
 			),
 		)
